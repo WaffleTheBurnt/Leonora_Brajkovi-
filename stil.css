@@ -1,56 +1,48 @@
 @charset "utf-8";
 /* CSS Document */
+
 p{
-	color:darkcyan;
+	color:indigo;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 15px;
 	line-height: 16px;
 	width: 600px;
-	background-color:powderblue;
+	background-color:whitesmoke;
 	opacity: 85%;
 	padding:20px;
 }
-
-h1,h2{
-	color:teal;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";background-color:lightcyan;
-	opacity: 70%;
+h1{
+	color:indigo;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";background-color:thistle;
+	opacity: 90%;
+	width: 700px;
+}
+h2,h3{
+	color:rebeccapurple;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";background-color:thistle;
+	opacity: 80%;
 	width: 700px;
 }
 
 a{
-	color:black;
-	background-color:whitesmoke;
-	padding:5px;
-	line-height:40px;
-	border:1px solid #000000;
+	color:rebeccapurple;
+	background-color:thistle;
+	padding:4px;
+	line-height:30px;
+	border:3px #000000;
 }
 a:hover{
-	background-color: darkcyan
+	background-color: mediumorchid
 }
 .pozadina{
-	background-image: url("Multimedija/pozadina.jpg");
+	background-image: url("file:///D:/index/stil/1.png");
 }
 .drugapozadina{
-	background-color: powderblue;
-}
-img{
-	height:100;
+	background-color:darkorchid;
 }
 
-blockquote{
-	color:whitesmoke;
-	background-color:cadetblue;
-	width: 200px;
-	padding:5px;
-}
-
-ol,ul{
+ul{
 	color:black;
-	background-color:darkseagreen;
+	background-color:mediumorchid;
 	width: 200px;
-}
-
-mark{
-	background-color: whitesmoke;
 }
